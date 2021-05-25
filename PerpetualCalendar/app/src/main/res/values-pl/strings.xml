@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kalendarz perpetualny</string>
+    <string name="sundaysButton">Niedziele</string>
+    <string name="calculateDaysButton">Policz dni</string>
+    <string name="ashText">Popielec</string>
+    <string name="easterText">Wielkanoc</string>
+    <string name="corpusCristiText">Boże Ciało</string>
+    <string name="adventText">Adwent</string>
+    <string name="sundaysInfoText">Niedziele handlowe w roku %1$d:</string>
+    <string name="leaveActivityButton">OK</string>
+    <string name="startDateText">Data początkowa: </string>
+    <string name="endDateText">Data końcowa: </string>
+    <string name="calendarDaysText">Dni kalendarzowych: %1$d</string>
+    <string name="workingDaysText">Dni roboczych: %1$d</string>
+    <string name="sundaysAlertText">W wybranym roku wszystkie niedziele są handlowe.</string>
+</resources>

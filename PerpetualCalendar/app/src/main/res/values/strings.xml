@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Perpetual Calendar</string>
+    <string name="sundaysButton">Sundays</string>
+    <string name="calculateDaysButton">Calculate days</string>
+    <string name="ashText">Ash Tuesday</string>
+    <string name="easterText">Easter</string>
+    <string name="corpusCristiText">Corpus Cristi</string>
+    <string name="adventText">Advent</string>
+    <string name="sundaysInfoText">Shopping Sundays in year %1$d:</string>
+    <string name="leaveActivityButton">OK</string>
+    <string name="startDateText">Start date: </string>
+    <string name="endDateText">End date: </string>
+    <string name="calendarDaysText">Calendar days: %1$d</string>
+    <string name="workingDaysText">Working days: %1$d</string>
+    <string name="sundaysAlertText">All sundays are shopping sundays in the chosen year.</string>
+
+</resources>

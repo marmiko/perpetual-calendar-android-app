@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CalculateDaysActivity">
+
+    <Button
+        android:id="@+id/leaveDaysActivityButton"
+        android:layout_width="292dp"
+        android:layout_height="61dp"
+        android:text="@string/leaveActivityButton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/endDatePicker"
+        app:layout_constraintVertical_bias="0.733" />
+
+    <DatePicker
+        android:id="@+id/endDatePicker"
+        style="@android:style/Widget.DatePicker"
+        android:layout_width="410dp"
+        android:layout_height="157dp"
+        android:layout_marginBottom="264dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/startDatePicker"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <DatePicker
+        android:id="@+id/startDatePicker"
+        style="@android:style/Widget.DatePicker"
+        android:layout_width="413dp"
+        android:layout_height="158dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/startDateText"
+        android:layout_width="117dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="11dp"
+        android:text="@string/startDateText"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/startDatePicker"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/endDateText"
+        android:layout_width="117dp"
+        android:layout_height="21dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="11dp"
+        android:text="@string/endDateText"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/endDatePicker"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/startDatePicker" />
+
+    <TextView
+        android:id="@+id/workingDaysText"
+        android:layout_width="160dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/workingDaysText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.106"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/endDatePicker" />
+
+    <TextView
+        android:id="@+id/calendarDaysText"
+        android:layout_width="166dp"
+        android:layout_height="32dp"
+        android:text="@string/calendarDaysText"
+        app:layout_constraintBottom_toTopOf="@+id/leaveDaysActivityButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.106"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/workingDaysText"
+        app:layout_constraintVertical_bias="0.171" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
